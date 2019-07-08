@@ -15,6 +15,7 @@
     <PackageReleaseNotes>Initial version</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <Description>Converts a number to text. For example, converts 123.45 to "One hundred twenty-three and 45/100". Useful for check printing or other cases where you want to display a number as text.</Description>
   </PropertyGroup>
 
   <ItemGroup>

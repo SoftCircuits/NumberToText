@@ -64,6 +64,14 @@ namespace SoftCircuits.NumberToText
         };
 
         /// <summary>
+        /// Constructs a NumberToText instance.
+        /// </summary>
+        public NumberToText()
+        {
+
+        }
+
+        /// <summary>
         /// Converts a numeric value to words suitable for the portion of
         /// a check that writes out the amount.
         /// </summary>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToText", "NumberToText\NumberToText.csproj", "{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNumberToText", "TestNumberToText\TestNumberToText.csproj", "{035D591F-2EB8-4278-821E-87F1C0278597}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035D591F-2EB8-4278-821E-87F1C0278597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035D591F-2EB8-4278-821E-87F1C0278597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035D591F-2EB8-4278-821E-87F1C0278597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035D591F-2EB8-4278-821E-87F1C0278597}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A201306-D51B-4997-850D-3E29FC02A16D}
+	EndGlobalSection
+EndGlobal

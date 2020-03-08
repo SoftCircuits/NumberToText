@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2019 Jonathan Wood (www.softcircuits.com)
+﻿// Copyright (c) 2019-2020 Jonathan Wood (www.softcircuits.com)
 // Licensed under the MIT license.
 //
 using System;
@@ -64,23 +64,20 @@ namespace SoftCircuits.NumberToText
         };
 
         /// <summary>
-        /// Constructs a NumberToText instance.
+        /// Constructs a <see cref="NumberToText"></see> instance.
         /// </summary>
         public NumberToText()
         {
-
         }
 
         /// <summary>
-        /// Converts a numeric value to words suitable for the portion of
-        /// a check that writes out the amount.
+        /// Converts a number to text.
         /// </summary>
-        /// <param name="value">Value to be converted</param>
-        /// <returns></returns>
+        /// <param name="value">The value to convert.</param>
+        /// <returns>Returns a string representation of the given value.</returns>
         public string Transform(decimal value)
         {
             string digits, temp;
-            bool showThousands = false;
             bool allZeros = true;
 
             // Use StringBuilder to build result
@@ -97,7 +94,7 @@ namespace SoftCircuits.NumberToText
                 switch (column % 3)
                 {
                     case 0:        // Ones position
-                        showThousands = true;
+                        bool showThousands = true;
                         if (i == 0)
                         {
                             // First digit in number (last in loop)

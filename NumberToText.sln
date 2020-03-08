@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberToText", "NumberToText\NumberToText.csproj", "{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberToText", "NumberToText\NumberToText.csproj", "{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNumberToText", "TestNumberToText\TestNumberToText.csproj", "{035D591F-2EB8-4278-821E-87F1C0278597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberToText.Tests", "NumberToText.Tests\NumberToText.Tests.csproj", "{6A1A132B-0A8E-4B2D-AD94-787BC59194A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF72EAF2-09D6-4D7B-9CFE-12665DBD30D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{035D591F-2EB8-4278-821E-87F1C0278597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{035D591F-2EB8-4278-821E-87F1C0278597}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{035D591F-2EB8-4278-821E-87F1C0278597}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{035D591F-2EB8-4278-821E-87F1C0278597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1A132B-0A8E-4B2D-AD94-787BC59194A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1A132B-0A8E-4B2D-AD94-787BC59194A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1A132B-0A8E-4B2D-AD94-787BC59194A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1A132B-0A8E-4B2D-AD94-787BC59194A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

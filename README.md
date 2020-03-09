@@ -8,7 +8,7 @@ Install-Package SoftCircuits.NumberToText
 
 ## Overview
 
-Converts a number to text. For example, converts `123.45` to `"One hundred twenty-three and 45/100"`. Useful for check printing or other cases where you want to display a number as text.
+Converts a number to text. For example, the library would convert `123.45` to `"One hundred twenty-three and 45/100"`. Useful for check printing or other cases where you want to display a number as text.
 
 ## Example
 

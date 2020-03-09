@@ -17,6 +17,8 @@ NumberToText converter = new NumberToText();
 string s = converter.Transform(123.45);
 ```
 
+Note that negative numbers are converted to positive numbers before transforming. Therefore, `123.45` would product the same result for as for `-123.45`. Depending on how you want negative numbers handled, you could prefix the result with `"Minus"` or something to that effect.
+
 ## Additional Information
 
 For additional information, check the [Converting Numbers to Words](http://www.blackbeltcoder.com/Articles/strings/converting-numbers-to-words) article on Black Belt Coder.

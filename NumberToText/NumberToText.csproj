@@ -7,16 +7,16 @@
     <PackageId>SoftCircuits.NumberToText</PackageId>
     <Authors>Jonathan Wood</Authors>
     <Company>SoftCircuits</Company>
-    <Copyright>Copyright © 2019 SoftCircuits</Copyright>
+    <Copyright>Copyright © 2019-2020 SoftCircuits</Copyright>
     <PackageProjectUrl>https://github.com/SoftCircuits/NumberToText</PackageProjectUrl>
     <RepositoryUrl>https://github.com/SoftCircuits/NumberToText</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>number-to-text convert number text check-writing check-amount number-string</PackageTags>
-    <PackageReleaseNotes>Code review; minor tweaks; reworked unit tests; added package icon.</PackageReleaseNotes>
+    <PackageReleaseNotes>Now explicitly setting any negative values to their positive value; Expanded unit tests.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
     <Description>Converts a number to text. For example, converts 123.45 to "One hundred twenty-three and 45/100". Useful for check printing or other cases where you want to display a number as text.</Description>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
     <PackageIcon>Logo_64x64.png</PackageIcon>
     <PackageIconUrl />
   </PropertyGroup>

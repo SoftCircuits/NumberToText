@@ -60,7 +60,9 @@ namespace SoftCircuits.NumberToText
             "trillion",
             "quadrillion",
             "quintillion",
-            "sextillion"
+            "sextillion",
+            "septillion",
+            "octillion",
         };
 
         /// <summary>
@@ -71,7 +73,9 @@ namespace SoftCircuits.NumberToText
         }
 
         /// <summary>
-        /// Converts a number to text.
+        /// Converts a number to text. Because there is no standard way of dealing
+        /// with negative numbers, they are converted to a positive number before
+        /// being transformed.
         /// </summary>
         /// <param name="value">The value to convert.</param>
         /// <returns>Returns a string representation of the given value.</returns>
@@ -80,10 +84,15 @@ namespace SoftCircuits.NumberToText
             string digits, temp;
             bool allZeros = true;
 
+            // Make negative numbers positive
+            value = Math.Abs(value);
+
             // Use StringBuilder to build result
             StringBuilder builder = new StringBuilder();
+
             // Convert integer portion of value to string
-            digits = ((long)value).ToString();
+            digits = Math.Round(value).ToString();
+
             // Traverse characters in reverse order
             for (int i = digits.Length - 1; i >= 0; i--)
             {
@@ -161,7 +170,7 @@ namespace SoftCircuits.NumberToText
             }
 
             // Append fractional portion/cents
-            builder.AppendFormat("and {0:00}/100", (value - (long)value) * 100);
+            builder.AppendFormat("and {0:00}/100", (value - Math.Round(value)) * 100);
 
             // Capitalize first letter
             return string.Format("{0}{1}",

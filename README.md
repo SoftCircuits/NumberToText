@@ -8,7 +8,7 @@ Install-Package SoftCircuits.NumberToText
 
 ## Overview
 
-Converts a number to text. For example, converts 123.45 to "One hundred twenty-three and 45/100". Useful for check printing or other cases where you want to display a number as text.
+Converts a number to text. For example, the library would convert `123.45` to `"One hundred twenty-three and 45/100"`. Useful for check printing or other cases where you want to display a number as text.
 
 ## Example
 
@@ -16,6 +16,8 @@ Converts a number to text. For example, converts 123.45 to "One hundred twenty-t
 NumberToText converter = new NumberToText();
 string s = converter.Transform(123.45);
 ```
+
+Note that negative numbers are converted to positive numbers before transforming. Therefore, `123.45` would product the same result for as for `-123.45`. Depending on how you want negative numbers handled, you could prefix the result with `"Minus"` or something to that effect when the value is a negative number.
 
 ## Additional Information
 

@@ -1,5 +1,3 @@
-<a href="https://www.buymeacoffee.com/jonathanwood" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: 37px !important;width: 170px !important;" ></a>
-
 # NumberToText
 
 [![NuGet version (SoftCircuits.NumberToText)](https://img.shields.io/nuget/v/SoftCircuits.NumberToText.svg?style=flat-square)](https://www.nuget.org/packages/SoftCircuits.NumberToText/)

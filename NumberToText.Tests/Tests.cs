@@ -104,7 +104,7 @@ namespace NumberToTextTests
 
             (1.12m, "One and 12/100"),
             (1.123456789m, "One and 12/100"),
-            (100.126m, "One hundred and 13/100"),
+            (1.126m, "One and 13/100"),
 
             (456m, "Four hundred fifty-six and 00/100"),
             (-456m, "Four hundred fifty-six and 00/100"),

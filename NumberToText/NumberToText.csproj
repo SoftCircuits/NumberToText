@@ -1,7 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
+    <Nullable>annotations</Nullable>
+    <Nullable Condition="'$(TargetFramework)' == 'net5.0'">enable</Nullable>
+    <LangVersion>9.0</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageId>SoftCircuits.NumberToText</PackageId>
@@ -12,11 +15,13 @@
     <RepositoryUrl>https://github.com/SoftCircuits/NumberToText</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>number-to-text convert number text check-writing check-amount number-string</PackageTags>
-    <PackageReleaseNotes>Now explicitly setting any negative values to their positive value; Expanded unit tests.</PackageReleaseNotes>
+    <PackageReleaseNotes>Now targeting .NET Standard 2.0 or .NET 5.0, and supports nullable reference types.</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
-    <Description>Converts a number to text. For example, converts 123.45 to "One hundred twenty-three and 45/100". Useful for check printing or other cases where you want to display a number as text.</Description>
-    <Version>1.0.3</Version>
+    <Description>Converts a number to text. For example, converts 123.45 to "One hundred twenty-three and 45/100". Useful for check printing or other cases where you want to display a number as text.
+
+Now targets .NET Standard 2.0 or .NET 5.0, and supports nullable reference types.</Description>
+    <Version>2.0.0</Version>
     <PackageIcon>Logo_64x64.png</PackageIcon>
     <PackageIconUrl />
   </PropertyGroup>
